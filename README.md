@@ -7,3 +7,17 @@ National savings and investment is a government backed form of savings account, 
 
 Citi saving acount -> in the citi bank.
 
+## .NET commands for mac
+```
+dotnet run
+```
+```
+dotnet new console App
+```
+```
+dotnet new console --force
+```
+```
+dotnet new console -o myApp
+```
+
