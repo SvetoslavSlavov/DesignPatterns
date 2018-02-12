@@ -20,7 +20,7 @@ namespace DesignPatterns
     {
         public decimal Balance { get; set; }
     }
-    // Concreate Product
+    // Concrete Product -> Конкретен продукт
     public class CitiSavingAcct : ISavingAcount
     {
         // Contructor Balance value
@@ -29,7 +29,7 @@ namespace DesignPatterns
             Balance = 5000;
         }
     }
-    // Concreate Product
+    // Concrete Product -> Конкретен продукт
     public class NationalSavingAcct : ISavingAcount
     {
         public NationalSavingAcct()
@@ -40,10 +40,10 @@ namespace DesignPatterns
     // Creator
     interface ICreditUnoinFactory
     {
-        // operation witch takes in acount number
+        // operation which takes in acount number
         ISavingAcount GetSavingAcount(string acctNo);
     }
-    // Concrete Creator
+    // Concrete Creator -> Конкренет Създател
     public class SavingsAcctFactory : ICreditUnoinFactory
     {
         // Assents of factory method -> it contains the logic of what tipe it will be send back.
