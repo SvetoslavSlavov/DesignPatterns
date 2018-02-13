@@ -12,7 +12,7 @@ Citi saving acount -> in the citi bank.
 dotnet run
 ```
 ```
-dotnet new console App
+dotnet new console
 ```
 ```
 dotnet new console --force
@@ -20,4 +20,6 @@ dotnet new console --force
 ```
 dotnet new console -o myApp
 ```
+
+If there is a problem close the Visual Studio Code and try again.
 
