@@ -1,7 +1,18 @@
 using System;
 
 namespace Adapter
-{
+{   
+    /*
+     Robota ne moje da implementira IEnemyAtacker.
+    Toi nqma takiva metodi. 
+    */
+    /* 
+    nqma kak da mu assignem driver 
+    nqma kak da mu kajem drive forward
+    nqma kak da iztrelva s fireweapon
+    to moje da pravi samo walk forward
+    metod smash with hands
+    */
     // Adaptee -> specifichni vidove deistviq
     public class Robot
     {

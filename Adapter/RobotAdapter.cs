@@ -2,6 +2,11 @@ using System;
 
 namespace Adapter
 {
+    /* 
+    Obedinqvame metodite na robota s tezi
+    na tanka. Veche ima sashtite metodi kakvito
+    ima i tanka.
+    */
     public class RobotAdapter : IEnemyAtacker
     {
         private Robot robot;
